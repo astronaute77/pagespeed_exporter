@@ -148,7 +148,7 @@ func collectLighthouseResults(prefix string, lhr *pagespeedonline.LighthouseResu
 	categories := map[string]*pagespeedonline.LighthouseCategoryV5{
 		"performance":    lhr.Categories.Performance,
 		"accessibility":  lhr.Categories.Accessibility,
-		"pwa":            lhr.Categories.Pwa,
+		//"pwa":            lhr.Categories.Pwa,
 		"best-practices": lhr.Categories.BestPractices,
 		"seo":            lhr.Categories.Seo,
 	}

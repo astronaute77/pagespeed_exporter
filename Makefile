@@ -29,4 +29,4 @@ goreleaser:
 	@go get github.com/goreleaser/goreleaser && go install github.com/goreleaser/goreleaser
 
 docker:
-	docker build -t foomo/pagespeed_exporter:latest .
+	docker build -t astronaute/pagespeed_exporter:latest .
